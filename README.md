@@ -32,10 +32,38 @@ This Java program calculates the sum of an alternating series in the form 1−2+
 The input is 4 and the output is -2
    
 4. Write a program to find the factorial of a number.
+
+Explanation:
+This Java program calculates the factorial of a given number. At first the user to input a number using the Scanner class. The input number is stored in the variable num. The program initializes a variable factorial to 1, which will hold the result. Then, a for loop runs from 1 to the input number (num). In each line, the loop indicate the current value of factorial by the loop counter i, effectively calculating the product of all numbers from 1 to num. After the loop finishes, the program prints the calculated factorial. Finally, the Scanner object is closed to release system resources. The input is 5 and the output is 120
+   
   
-  
-6. Write a program to find the power for a given base and exponent.
-7. Write a program to find the Bangla season form a given month using
+5. Write a program to find the power for a given base and exponent.
+ 
+ Explanation:
+In this Java program we can calculates the power of a given base raised to a specified exponent. It starts by initializing the user to input a base (float) and an exponent (an integer). The program then initializes a variable result to 1, which will store the final result of the base raised to the power of the exponent.
+ a for loop uses in the program, the program multiplies the base by itself for the absolute value of the exponent. If the exponent show the minus value, the program computes the reciprocal of the result to account for negative exponent. Lastly the program prints the result of raising the base to the given exponent and closes the Scanner to release system resources. It can calculate both negative and positive value.
+ 
+ 
+6. Write a program to find the Bangla season form a given month using
 if/switch.
-8. Write a program to find the largest number in a list of Array.
+
+Explanation:
+This Java program determines the Bangla season based on a given month number. The program helps  the user to input a month number, where 1 represents January, 2 represents February, and so on up to 12 for December.  Then the uses  switch case categorize the month into the corresponding season of Bangladesh.
+Winter (শীত) is for January and February.
+Spring (বসন্ত) is for March, April, and May.
+Summer (গ্রীষ্ম) is for June, July, and August.
+Monsoon (বর্ষা) is for September and October.
+Autumn (শরৎ) is for November and December.
+If the user enters a number outside the valid range (1-12), the program outputs an "Invalid month number" message. The program finish by closing the Scanner to free up resources.
+
+
+7. Write a program to find the largest number in a list of Array.
+ Explanation:
+
+This Java program finds the largest number in a list of integers  in an array. It starts by prompting the user to enter the number of elements for the array. After getting the number of elements, the program creates an array of that size and prompts the user to input the numbers. These numbers are stored in the array.Next, the program assumes the first element of the array to be the largest and initializes the variable largest to the value of the first element. Then, it loops through the remaining elements of the array starting from the second element (index 1) and compares each element with the current largest number. If a larger number is found, it updates the largest variable.Lastly  the program prints the largest number in the array and closes the Scanner object 
+
 9. Write a program to sort some number in ascending order.
+Explanation:
+This Java program sorts a list of numbers in ascending order using the Bubble Sort algorithm. It first prompts the user to enter the number of elements and then takes input for those numbers, storing them in an array. The Bubble Sort method is used to arrange the numbers in increasing order by repeatedly comparing adjacent elements and swapping them if they are in the wrong order. This process continues until all elements are sorted.
+Once the sorting is complete, the program prints the sorted numbers. Finally, the Scanner object is closed to free system resources. This approach ensures a simple yet effective way to sort numbers, although more efficient sorting algorithms like Arrays.sort() or QuickSort can be used for larger datasets.
+
